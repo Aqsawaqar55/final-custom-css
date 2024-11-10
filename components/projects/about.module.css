@@ -1,0 +1,63 @@
+.main {
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 70%;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.maindiv {
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  color: purple;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miles1 {
+  height: 500px;
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+
+.miles1:hover {
+  height: 520px;
+  width: 400px;
+  margin-bottom: 80px;
+  border: 14px solid purple;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  width: auto;
+  gap: 8px;
+  margin-left: 4px;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+}

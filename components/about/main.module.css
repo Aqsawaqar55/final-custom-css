@@ -1,0 +1,101 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.font {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    margin-right: 500px; 
+}
+
+.h {
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 18px;
+    transition: color 0.3s;
+}
+
+.h:hover {
+    color: purple;
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.round {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.round:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .font {
+        margin-right: 0; 
+    }
+
+    .h {
+        font-size: 40px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+
+    .container {
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .round {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .h {
+        font-size: 30px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .round {
+        height: 40px;
+        width: 40px;
+    }
+}
